@@ -1,0 +1,22 @@
+{
+  "name": "bufqueue",
+  "version": "1.0.0",
+  "description": "bufqueue --------",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodeunit test/",
+    "lint": "tslint --project .",
+    "tswatch": "tsc --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "private": true,
+  "devDependencies": {
+    "@types/node": "^9.3.0",
+    "@types/nodeunit": "0.0.30",
+    "nodeunit": "^0.11.2",
+    "tslint": "^5.8.0",
+    "typescript": "^2.6.2"
+  }
+}
